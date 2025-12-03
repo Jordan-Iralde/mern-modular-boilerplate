@@ -1,0 +1,68 @@
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f0f0f;
+  font-family: system-ui, sans-serif;
+}
+
+.register-form {
+  width: 320px;
+  padding: 32px;
+  background: #1a1a1a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.35);
+}
+
+.register-form h2 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.error-text {
+  margin: 0;
+  padding: 8px;
+  background: #b81c1c;
+  color: white;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.register-form input {
+  padding: 10px 14px;
+  background: #121212;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.15s ease;
+}
+
+.register-form input:focus {
+  border-color: #6c5ce7;
+  outline: none;
+}
+
+.register-form button {
+  margin-top: 6px;
+  padding: 10px;
+  background: #6c5ce7;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.register-form button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
